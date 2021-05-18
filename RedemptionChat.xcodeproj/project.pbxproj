@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2810E3C9DAB009FEC34480DD /* Pods_RedemptionChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E68EC35F2B402141F6D79B6 /* Pods_RedemptionChat.framework */; };
+		729C1A7D24921C8CD8FCA377 /* Pods_RedemptionChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46A5F168EB1F3121E5B99AE /* Pods_RedemptionChatTests.framework */; };
+		761E7D44265467DD00651E00 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E7D43265467DD00651E00 /* StateController.swift */; };
+		761E7D6C26546A0A00651E00 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E7D6B26546A0A00651E00 /* SignUpView.swift */; };
+		761E7D7126546C0000651E00 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E7D7026546C0000651E00 /* SignInView.swift */; };
+		761E7D7C26546D5F00651E00 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E7D7B26546D5F00651E00 /* MainView.swift */; };
+		761E7D8226546F9E00651E00 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E7D8126546F9E00651E00 /* Text.swift */; };
 		76353860264E83AB00D1A0AC /* RedemptionChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635385F264E83AB00D1A0AC /* RedemptionChatApp.swift */; };
 		76353862264E83AB00D1A0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76353861264E83AB00D1A0AC /* ContentView.swift */; };
 		76353864264E83AD00D1A0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76353863264E83AD00D1A0AC /* Assets.xcassets */; };
 		76353867264E83AD00D1A0AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76353866264E83AD00D1A0AC /* Preview Assets.xcassets */; };
 		76353872264E83AD00D1A0AC /* RedemptionChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76353871264E83AD00D1A0AC /* RedemptionChatTests.swift */; };
 		7635387D264E83AD00D1A0AC /* RedemptionChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635387C264E83AD00D1A0AC /* RedemptionChatUITests.swift */; };
+		7635388E264E844800D1A0AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7635388D264E844800D1A0AC /* GoogleService-Info.plist */; };
+		C9BA4AAE9345EF2B62E9E65F /* Pods_RedemptionChat_RedemptionChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7C86939821C7244697212 /* Pods_RedemptionChat_RedemptionChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B4882BD1374CE0B1B0F338C /* Pods-RedemptionChat-RedemptionChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChat-RedemptionChatUITests.release.xcconfig"; path = "Target Support Files/Pods-RedemptionChat-RedemptionChatUITests/Pods-RedemptionChat-RedemptionChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E68EC35F2B402141F6D79B6 /* Pods_RedemptionChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedemptionChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4FFD70BA144AC23840D63D /* Pods-RedemptionChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChat.debug.xcconfig"; path = "Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat.debug.xcconfig"; sourceTree = "<group>"; };
+		761E7D43265467DD00651E00 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		761E7D6B26546A0A00651E00 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		761E7D7026546C0000651E00 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		761E7D7B26546D5F00651E00 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		761E7D8126546F9E00651E00 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		7635385C264E83AB00D1A0AC /* RedemptionChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedemptionChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7635385F264E83AB00D1A0AC /* RedemptionChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionChatApp.swift; sourceTree = "<group>"; };
 		76353861264E83AB00D1A0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +62,13 @@
 		76353878264E83AD00D1A0AC /* RedemptionChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedemptionChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7635387C264E83AD00D1A0AC /* RedemptionChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionChatUITests.swift; sourceTree = "<group>"; };
 		7635387E264E83AD00D1A0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7635388D264E844800D1A0AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB28D9D34829ADEFADCAA44B /* Pods-RedemptionChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChatTests.debug.xcconfig"; path = "Target Support Files/Pods-RedemptionChatTests/Pods-RedemptionChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6516BDC4928920C6DF6111 /* Pods-RedemptionChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChat.release.xcconfig"; path = "Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat.release.xcconfig"; sourceTree = "<group>"; };
+		BA0E29698BC5996616D93B8D /* Pods-RedemptionChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChatTests.release.xcconfig"; path = "Target Support Files/Pods-RedemptionChatTests/Pods-RedemptionChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0A7C86939821C7244697212 /* Pods_RedemptionChat_RedemptionChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedemptionChat_RedemptionChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D041333EE5460194D2D8C9FD /* Pods-RedemptionChat-RedemptionChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChat-RedemptionChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-RedemptionChat-RedemptionChatUITests/Pods-RedemptionChat-RedemptionChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46A5F168EB1F3121E5B99AE /* Pods_RedemptionChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedemptionChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2810E3C9DAB009FEC34480DD /* Pods_RedemptionChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729C1A7D24921C8CD8FCA377 /* Pods_RedemptionChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +92,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BA4AAE9345EF2B62E9E65F /* Pods_RedemptionChat_RedemptionChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A771C2D2A8C72B23970C3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E68EC35F2B402141F6D79B6 /* Pods_RedemptionChat.framework */,
+				C0A7C86939821C7244697212 /* Pods_RedemptionChat_RedemptionChatUITests.framework */,
+				D46A5F168EB1F3121E5B99AE /* Pods_RedemptionChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		761E7D61265469FD00651E00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76353861264E83AB00D1A0AC /* ContentView.swift */,
+				761E7D7026546C0000651E00 /* SignInView.swift */,
+				761E7D6B26546A0A00651E00 /* SignUpView.swift */,
+				761E7D7B26546D5F00651E00 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		761E7D8026546F8C00651E00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				761E7D8126546F9E00651E00 /* Text.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		76353853264E83AA00D1A0AC = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +135,8 @@
 				76353870264E83AD00D1A0AC /* RedemptionChatTests */,
 				7635387B264E83AD00D1A0AC /* RedemptionChatUITests */,
 				7635385D264E83AB00D1A0AC /* Products */,
+				7EA0A4940C0E25D341671672 /* Pods */,
+				3A771C2D2A8C72B23970C3D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +154,12 @@
 			isa = PBXGroup;
 			children = (
 				7635385F264E83AB00D1A0AC /* RedemptionChatApp.swift */,
-				76353861264E83AB00D1A0AC /* ContentView.swift */,
+				761E7D8026546F8C00651E00 /* Extensions */,
+				761E7D61265469FD00651E00 /* Views */,
+				761E7D43265467DD00651E00 /* StateController.swift */,
 				76353863264E83AD00D1A0AC /* Assets.xcassets */,
 				76353868264E83AD00D1A0AC /* Info.plist */,
+				7635388D264E844800D1A0AC /* GoogleService-Info.plist */,
 				76353865264E83AD00D1A0AC /* Preview Content */,
 			);
 			path = RedemptionChat;
@@ -130,6 +191,19 @@
 			path = RedemptionChatUITests;
 			sourceTree = "<group>";
 		};
+		7EA0A4940C0E25D341671672 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4FFD70BA144AC23840D63D /* Pods-RedemptionChat.debug.xcconfig */,
+				AC6516BDC4928920C6DF6111 /* Pods-RedemptionChat.release.xcconfig */,
+				D041333EE5460194D2D8C9FD /* Pods-RedemptionChat-RedemptionChatUITests.debug.xcconfig */,
+				6B4882BD1374CE0B1B0F338C /* Pods-RedemptionChat-RedemptionChatUITests.release.xcconfig */,
+				AB28D9D34829ADEFADCAA44B /* Pods-RedemptionChatTests.debug.xcconfig */,
+				BA0E29698BC5996616D93B8D /* Pods-RedemptionChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76353881264E83AD00D1A0AC /* Build configuration list for PBXNativeTarget "RedemptionChat" */;
 			buildPhases = (
+				AA31EFD12FB4FB87FA0505D4 /* [CP] Check Pods Manifest.lock */,
 				76353858264E83AB00D1A0AC /* Sources */,
 				76353859264E83AB00D1A0AC /* Frameworks */,
 				7635385A264E83AB00D1A0AC /* Resources */,
+				B7EE09DF5514074124DF4C3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76353884264E83AD00D1A0AC /* Build configuration list for PBXNativeTarget "RedemptionChatTests" */;
 			buildPhases = (
+				9E523415683A528F5FA8F65A /* [CP] Check Pods Manifest.lock */,
 				76353869264E83AD00D1A0AC /* Sources */,
 				7635386A264E83AD00D1A0AC /* Frameworks */,
 				7635386B264E83AD00D1A0AC /* Resources */,
@@ -172,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76353887264E83AD00D1A0AC /* Build configuration list for PBXNativeTarget "RedemptionChatUITests" */;
 			buildPhases = (
+				82655664784170FE2CB98E99 /* [CP] Check Pods Manifest.lock */,
 				76353874264E83AD00D1A0AC /* Sources */,
 				76353875264E83AD00D1A0AC /* Frameworks */,
 				76353876264E83AD00D1A0AC /* Resources */,
+				94AA9916A2BA854D2C9B01FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76353867264E83AD00D1A0AC /* Preview Assets.xcassets in Resources */,
+				7635388E264E844800D1A0AC /* GoogleService-Info.plist in Resources */,
 				76353864264E83AD00D1A0AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +334,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82655664784170FE2CB98E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedemptionChat-RedemptionChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AA9916A2BA854D2C9B01FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat-RedemptionChatUITests/Pods-RedemptionChat-RedemptionChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat-RedemptionChatUITests/Pods-RedemptionChat-RedemptionChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat-RedemptionChatUITests/Pods-RedemptionChat-RedemptionChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E523415683A528F5FA8F65A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedemptionChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA31EFD12FB4FB87FA0505D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedemptionChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7EE09DF5514074124DF4C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76353858264E83AB00D1A0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761E7D6C26546A0A00651E00 /* SignUpView.swift in Sources */,
+				761E7D7C26546D5F00651E00 /* MainView.swift in Sources */,
 				76353862264E83AB00D1A0AC /* ContentView.swift in Sources */,
+				761E7D8226546F9E00651E00 /* Text.swift in Sources */,
+				761E7D44265467DD00651E00 /* StateController.swift in Sources */,
 				76353860264E83AB00D1A0AC /* RedemptionChatApp.swift in Sources */,
+				761E7D7126546C0000651E00 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +602,7 @@
 		};
 		76353882264E83AD00D1A0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4FFD70BA144AC23840D63D /* Pods-RedemptionChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +624,7 @@
 		};
 		76353883264E83AD00D1A0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6516BDC4928920C6DF6111 /* Pods-RedemptionChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +646,7 @@
 		};
 		76353885264E83AD00D1A0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB28D9D34829ADEFADCAA44B /* Pods-RedemptionChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +668,7 @@
 		};
 		76353886264E83AD00D1A0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0E29698BC5996616D93B8D /* Pods-RedemptionChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +690,7 @@
 		};
 		76353888264E83AD00D1A0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D041333EE5460194D2D8C9FD /* Pods-RedemptionChat-RedemptionChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +710,7 @@
 		};
 		76353889264E83AD00D1A0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4882BD1374CE0B1B0F338C /* Pods-RedemptionChat-RedemptionChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
