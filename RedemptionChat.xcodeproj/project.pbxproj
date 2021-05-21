@@ -21,6 +21,10 @@
 		76353872264E83AD00D1A0AC /* RedemptionChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76353871264E83AD00D1A0AC /* RedemptionChatTests.swift */; };
 		7635387D264E83AD00D1A0AC /* RedemptionChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635387C264E83AD00D1A0AC /* RedemptionChatUITests.swift */; };
 		7635388E264E844800D1A0AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7635388D264E844800D1A0AC /* GoogleService-Info.plist */; };
+		76B02DDE265850A90071F648 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B02DDD265850A90071F648 /* ChatView.swift */; };
+		76B02DE3265854E40071F648 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B02DE2265854E40071F648 /* Message.swift */; };
+		76B02E04265858860071F648 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B02E03265858860071F648 /* Conversation.swift */; };
+		76D66B642657BD10005EF44C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D66B632657BD10005EF44C /* User.swift */; };
 		C9BA4AAE9345EF2B62E9E65F /* Pods_RedemptionChat_RedemptionChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7C86939821C7244697212 /* Pods_RedemptionChat_RedemptionChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		7635387C264E83AD00D1A0AC /* RedemptionChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionChatUITests.swift; sourceTree = "<group>"; };
 		7635387E264E83AD00D1A0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7635388D264E844800D1A0AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76B02DDD265850A90071F648 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		76B02DE2265854E40071F648 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		76B02E03265858860071F648 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		76D66B632657BD10005EF44C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AB28D9D34829ADEFADCAA44B /* Pods-RedemptionChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChatTests.debug.xcconfig"; path = "Target Support Files/Pods-RedemptionChatTests/Pods-RedemptionChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6516BDC4928920C6DF6111 /* Pods-RedemptionChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChat.release.xcconfig"; path = "Target Support Files/Pods-RedemptionChat/Pods-RedemptionChat.release.xcconfig"; sourceTree = "<group>"; };
 		BA0E29698BC5996616D93B8D /* Pods-RedemptionChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedemptionChatTests.release.xcconfig"; path = "Target Support Files/Pods-RedemptionChatTests/Pods-RedemptionChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +124,7 @@
 				761E7D7026546C0000651E00 /* SignInView.swift */,
 				761E7D6B26546A0A00651E00 /* SignUpView.swift */,
 				761E7D7B26546D5F00651E00 /* MainView.swift */,
+				76B02DDD265850A90071F648 /* ChatView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				7635385F264E83AB00D1A0AC /* RedemptionChatApp.swift */,
+				76D66B622657BD02005EF44C /* Models */,
 				761E7D8026546F8C00651E00 /* Extensions */,
 				761E7D61265469FD00651E00 /* Views */,
 				761E7D43265467DD00651E00 /* StateController.swift */,
@@ -189,6 +199,16 @@
 				7635387E264E83AD00D1A0AC /* Info.plist */,
 			);
 			path = RedemptionChatUITests;
+			sourceTree = "<group>";
+		};
+		76D66B622657BD02005EF44C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76D66B632657BD10005EF44C /* User.swift */,
+				76B02DE2265854E40071F648 /* Message.swift */,
+				76B02E03265858860071F648 /* Conversation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7EA0A4940C0E25D341671672 /* Pods */ = {
@@ -446,7 +466,11 @@
 				761E7D7C26546D5F00651E00 /* MainView.swift in Sources */,
 				76353862264E83AB00D1A0AC /* ContentView.swift in Sources */,
 				761E7D8226546F9E00651E00 /* Text.swift in Sources */,
+				76B02DDE265850A90071F648 /* ChatView.swift in Sources */,
+				76B02E04265858860071F648 /* Conversation.swift in Sources */,
+				76B02DE3265854E40071F648 /* Message.swift in Sources */,
 				761E7D44265467DD00651E00 /* StateController.swift in Sources */,
+				76D66B642657BD10005EF44C /* User.swift in Sources */,
 				76353860264E83AB00D1A0AC /* RedemptionChatApp.swift in Sources */,
 				761E7D7126546C0000651E00 /* SignInView.swift in Sources */,
 			);

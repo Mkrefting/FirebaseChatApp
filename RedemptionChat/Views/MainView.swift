@@ -13,15 +13,50 @@ struct MainView: View {
 
     
     var body: some View {
-        VStack{
-            Button(action: {
-                state.signOut()
-            }, label: {
-                Text("Sign Out")
-            })
+        NavigationView{
             
-            Text("Create app here!")
+            VStack{
+                Text("All Users")
+                ForEach(state.users, id: \.self) { user in
+                    
+                    HStack{
+                        Text(user.email)
+                        Button(action: {
+                            state.addConversation(userId: user.id)
+                            state.getConversations()
+                        }, label: {Text("Add Conversation")})
+                    }
+                    
+                }
+                
+                Text("Your Chats")
+                ForEach(state.conversations, id: \.self) { conversation in
+                    NavigationLink(destination: ChatView(conversation: conversation)){
+                        HStack{
+                            Text(conversation.userId1)
+                            Text(conversation.userId2)
+                            Text(conversation.content)
+                        }
+                    }
+                }
+                
+            }.toolbar{
+                HStack{
+                Text(state.getUser().email)
+                Spacer()
+                Button(action: {
+                    state.signOut()
+                }, label: {
+                    Text("Sign Out")
+                })}
+            }
+            
+        }.onAppear{
+            state.updateUsers()
+            state.getConversations()
         }
+        
+
     }
 }
 
